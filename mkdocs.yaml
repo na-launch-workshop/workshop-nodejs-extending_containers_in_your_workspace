@@ -1,0 +1,8 @@
+site_name: Multi Container Node.js
+site_description: Multi container in Dev Spaces with a Node.js translation service
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

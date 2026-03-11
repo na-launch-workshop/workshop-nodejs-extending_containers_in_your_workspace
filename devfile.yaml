@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: workshop-nodejs-hello_nodejs
+  name: workshop-nodejs-extending_containers_in_your_workspace
   version: 1.0.0
   description: DevSpaces workspace for Node.js hello world translations app
 attributes:
@@ -23,10 +23,10 @@ components:
           protocol: https
           targetPort: 8080
           path: /
-      cpuLimit: '4'
-      cpuRequest: '1'
-      memoryLimit: '8G'
-      memoryRequest: '4G'
+      cpuLimit: '2'
+      cpuRequest: '500m'
+      memoryLimit: '4Gi'
+      memoryRequest: '2Gi'
       mountSources: true
   - name: node24-tools
     container:
@@ -45,10 +45,10 @@ components:
           protocol: https
           targetPort: 8081
           path: /
-      cpuLimit: '4'
-      cpuRequest: '1'
-      memoryLimit: '8G'
-      memoryRequest: '4G'
+      cpuLimit: '2'
+      cpuRequest: '500m'
+      memoryLimit: '4Gi'
+      memoryRequest: '2Gi'
       mountSources: true
 commands:
   - id: node22-install
