@@ -10,10 +10,14 @@
 
 This project reimplements multi container using Node.js and Express. It exposes a single endpoint that returns a localized greeting with an ISO-8601 timestamp appended, mirroring the original Quarkus behaviour.
 
+---
+
 ## Prerequisites
 - Node.js 22
 - Node.js 24
 - npm
+
+---
 
 ## 🐾 **Guided Walkthrough**
 
